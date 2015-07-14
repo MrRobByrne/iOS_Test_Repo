@@ -24,7 +24,17 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 # Pods/
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
 
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
